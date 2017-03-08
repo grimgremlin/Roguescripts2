@@ -1,0 +1,5 @@
+## Interface: 20400
+## Title: Translator
+## Author: Hemo
+
+Roguescripts.lua
