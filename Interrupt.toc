@@ -1,0 +1,5 @@
+## Interface: 20400
+## Title: Interrupt
+## Author: Hemo
+
+Interrupt.lua
