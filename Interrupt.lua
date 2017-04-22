@@ -44,14 +44,14 @@ function InterruptSay:COMBAT_LOG_EVENT_UNFILTERED(...)
 				end
 			end
 
-			if aEvent== 'SPELL_MISSED' and (c=="Mocking Blow" or c=="Taunt"" or c=="Challenging Shout") then
+			if aEvent== 'SPELL_MISSED' and (c=="Mocking Blow" or c=="Taunt" or c=="Challenging Shout") then
 					if inRaid then SendChatMessage(GetSpellLink(interruptid).." was resisted by "..aTarget..".","raid") end
 					if inParty and not inRaid then SendChatMessage(GetSpellLink(interruptid).." was resisted by "..aTarget..".","party") end
 					if not inParty and not inRaid then SendChatMessage(GetSpellLink(interruptid).." was resisted by "..aTarget..".","say") end
 					end
 			end	
 end
-end	
+
 
 
 
