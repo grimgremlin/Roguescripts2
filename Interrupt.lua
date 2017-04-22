@@ -39,6 +39,6 @@ function InterruptSay:COMBAT_LOG_EVENT_UNFILTERED(...)
 			if inParty and not inRaid then SendChatMessage(GetSpellLink(interruptid).." was resisted by "..aTarget..".","party") end
 			if not inParty and not inRaid then SendChatMessage(GetSpellLink(interruptid).." was resisted by "..aTarget..".","say") end
 		end
-			end	
+	end	
 end
 
